@@ -1,15 +1,14 @@
 {
-  "name": "html-markdown-parser-counter",
+  "name": "parse-count-html-markdown",
   "version": "1.0.0",
   "description": "A frontend/backend library to supports parsing HTML to Markdown and Markdown to HTML with additional support of word counting for markdown text and HTML text.",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "build": "babel lib -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lakindu2002/html-markdown-parser-counter.git"
+    "url": "git+https://github.com/lakindu2002/parse-count-html-markdown.git"
   },
   "keywords": [
     "html",
@@ -22,9 +21,9 @@
   "author": "lakinduhewawasam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lakindu2002/html-markdown-parser-counter/issues"
+    "url": "https://github.com/lakindu2002/parse-count-html-markdown.git/issues"
   },
-  "homepage": "https://github.com/lakindu2002/html-markdown-parser-counter#readme",
+  "homepage": "https://github.com/lakindu2002/parse-count-html-markdown.git#readme",
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
