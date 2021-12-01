@@ -8,10 +8,13 @@ const {
 	countWordsInMarkdown,
 } = require('./lib/counter/counters.js');
 
-module.exports = {
+module.exports.parser = {
 	parseHtmlToMarkdown,
 	parseMarkdownToHtml,
 	parseHtmlToText,
+};
+
+module.exports.counter = {
 	countWordsInHtml,
 	countWordsInMarkdown,
 };

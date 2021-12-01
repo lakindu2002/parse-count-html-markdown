@@ -3,9 +3,12 @@ const {
 	parseHtmlToMarkdown,
 	parseMarkdownToHtml,
 	parseHtmlToText,
+} = require('./index.js').parser;
+
+const {
 	countWordsInHtml,
 	countWordsInMarkdown,
-} = require('./index.js');
+} = require('./index.js').counter;
 
 test('Test Should Parse HTML to Markdown Successfully', ()=>{
 	const html = '<p>Hello World</p>';
