@@ -1,0 +1,26 @@
+{
+  "name": "html-markdown-wordcount",
+  "version": "1.0.0",
+  "description": "HTML and Markdown wordcounter for front-end (vanilla/frameworks) and backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakindu2002/html-markdown-wordcount.git"
+  },
+  "keywords": [
+    "html",
+    "markdown",
+    "wordcount",
+    "front-end",
+    "back-end"
+  ],
+  "author": "lakinduhewawasam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lakindu2002/html-markdown-wordcount/issues"
+  },
+  "homepage": "https://github.com/lakindu2002/html-markdown-wordcount#readme"
+}
