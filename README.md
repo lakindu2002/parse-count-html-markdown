@@ -1,6 +1,6 @@
 # HTML and Markdown Parser/Word Counter
 
-A frontend/backend library to supports parsing HTML to Markdown and Markdown to HTML with additional support of word counting for markdown text and HTML text.
+A frontend/backend library to support parsing HTML to Markdown and Markdown to HTML with additional support of word counting for markdown text and HTML text.
 
 ## Installing
 
