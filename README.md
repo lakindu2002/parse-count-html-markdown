@@ -11,11 +11,11 @@ $ npm install html-markdown-parser-counter
 
 Import the module using `CommonJS` with `require()` to obtain intellisense.
 
-```
+```javascript
 const library = require('html-markdown-parser-counter');
 ```
 
-```
+```javascript
 const { counter, parser } = library;
 
 const { countWordsInHtml, countWordsInMarkdown } = counter;
@@ -30,14 +30,14 @@ The `parser` provides functions used for transforming content from HTML to Markd
 ## Using the Library
 
 Using the counter: 
-```
+```javascript
 console.log(countWordsInHtml('<p>Hello World</p>')); // logs '2' to the console
 
 console.log(countWordsInMarkdown('## Hello World **!**')); // logs '3' to the console
 ```
 
 Using the parser: 
-```
+```javascript
 console.log(parseHtmlToMarkdown('<p>Hello World</p>')); // logs 'Hello World' to the console
 
 console.log(parseMarkdownToHtml('## Hello World')); // logs '<h2>Hello World</h2>' to the console
