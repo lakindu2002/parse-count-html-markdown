@@ -7,8 +7,6 @@ const {
 	countWordsInMarkdown,
 } = require('./index.js');
 
-console.log(parseMarkdownToHtml('**Hello**'));
-
 test('Test Should Parse HTML to Markdown Successfully', ()=>{
 	const html = '<p>Hello World</p>';
 	const markdown = 'Hello World';
