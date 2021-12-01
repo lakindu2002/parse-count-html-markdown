@@ -1,1 +1,1 @@
-# HTML & Markdown Word Counter
+# HTML & Markdown Parser/ Word Counter
