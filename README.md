@@ -6,7 +6,7 @@ A frontend/backend library to support parsing HTML to Markdown and Markdown to H
 
 Using npm:
 ```
-$ npm install html-markdown-parser-counter
+$ npm i parse-count-html-markdown
 ```
 
 ## Importing the Library
