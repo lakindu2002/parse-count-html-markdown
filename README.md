@@ -30,7 +30,7 @@ The `parser` provides functions used for transforming content from HTML to Markd
 
 ```javascript
 import { useState } from "react";
-import { converters, counters } from "html-markdown-parser-counter";
+import { converters, counters } from "parse-count-html-markdown";
 export const Counter = () => {
   const [text, setText] = useState("");
   const { htmlToMarkdown, htmlToText, markdownToHtml } = converters;
