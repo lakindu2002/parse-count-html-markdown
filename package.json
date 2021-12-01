@@ -1,5 +1,5 @@
 {
-  "name": "html-markdown-parser-count",
+  "name": "html-markdown-parser-counter",
   "version": "1.0.0",
   "description": "A frontend/backend library to supports parsing HTML to Markdown and Markdown to HTML with additional support of word counting for markdown text and HTML text.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lakindu2002/html-markdown-parser-count.git"
+    "url": "git+https://github.com/lakindu2002/html-markdown-parser-counter.git"
   },
   "keywords": [
     "html",
@@ -21,9 +21,9 @@
   "author": "lakinduhewawasam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lakindu2002/hhtml-markdown-parser-count/issues"
+    "url": "https://github.com/lakindu2002/html-markdown-parser-counter/issues"
   },
-  "homepage": "https://github.com/lakindu2002/html-markdown-parser-count#readme",
+  "homepage": "https://github.com/lakindu2002/html-markdown-parser-counter#readme",
   "devDependencies": {
     "eslint": "^8.3.0",
     "html-to-text": "^8.1.0",
