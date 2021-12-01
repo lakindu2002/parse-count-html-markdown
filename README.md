@@ -14,7 +14,7 @@ $ npm i parse-count-html-markdown
 Import the module using `ES6` with `import`
 
 ```javascript
-import { converters, counters } from "html-markdown-parser-counter";
+import { converters, counters } from "parse-count-html-markdown";
 ```
 
 ```javascript
