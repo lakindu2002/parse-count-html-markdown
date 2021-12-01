@@ -1,39 +1,34 @@
 /* eslint-disable no-undef */
-const {
-	parseHtmlToMarkdown,
-	parseMarkdownToHtml,
-	parseHtmlToText,
-} = require('./index.js').parser;
+import { parser, counter } from './index';
+const { parseHtmlToMarkdown, parseHtmlToText, parseMarkdownToHtml } = parser;
+const { countWordsInHtml, countWordsInMarkdown } = counter;
 
-const {
-	countWordsInHtml,
-	countWordsInMarkdown,
-} = require('./index.js').counter;
-
-test('Test Should Parse HTML to Markdown Successfully', ()=>{
+test('Test Should Parse HTML to Markdown Successfully', () => {
 	const html = '<p>Hello World</p>';
 	const markdown = 'Hello World';
 	expect(parseHtmlToMarkdown(html)).toEqual(markdown);
 });
 
-test('Test Should Parse Markdown to HTML Successfully', ()=>{
+test('Test Should Parse Markdown to HTML Successfully', () => {
 	const markdown = '**Hello**';
 	const html = '<p><strong>Hello</strong></p>';
-	expect(parseMarkdownToHtml(markdown.toLowerCase()).trim().toLowerCase()).toEqual(html.toLowerCase().trim());
+	expect(
+		parseMarkdownToHtml(markdown.toLowerCase()).trim().toLowerCase()
+	).toEqual(html.toLowerCase().trim());
 });
 
-test('Test Should Parse HTML to Text Successfully', ()=>{
+test('Test Should Parse HTML to Text Successfully', () => {
 	const html = '<p>Hello World</p>';
 	const text = 'Hello World';
 	expect(parseHtmlToText(html)).toEqual(text);
 });
 
-test('Test Should Count Words In HTML Successully', ()=>{
+test('Test Should Count Words In HTML Successully', () => {
 	const html = '<p>Hello World</p>';
 	expect(countWordsInHtml(html)).toEqual(2);
 });
 
-test('Test Should Count Words In Markdown Successfully',()=>{
+test('Test Should Count Words In Markdown Successfully', () => {
 	const markdown = 'Hello World';
 	expect(countWordsInMarkdown(markdown)).toEqual(2);
 });

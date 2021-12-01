@@ -1,20 +1,23 @@
+import * as converters from './lib/converter/converters';
+import * as counters from './lib/counter/counters';
+
 const {
 	parseHtmlToMarkdown,
 	parseMarkdownToHtml,
 	parseHtmlToText,
-} = require('./lib/converter/converters.js');
+} = converters;
 const {
 	countWordsInHtml,
 	countWordsInMarkdown,
-} = require('./lib/counter/counters.js');
+} = counters;
 
-module.exports.parser = {
+export const parser = {
 	parseHtmlToMarkdown,
 	parseMarkdownToHtml,
 	parseHtmlToText,
 };
 
-module.exports.counter = {
+export const counter = {
 	countWordsInHtml,
 	countWordsInMarkdown,
 };
